@@ -12,6 +12,7 @@ from its intended destination. Cybersecurity practices help detect and fix vulne
 to gain access or execute malicious actions. Data security and software supply chain transparency help teams understand
 which components their systems depend on. Together, these six fields support risk reduction, service reliability, 
 and informed technical decisions. This brief also examines BGP route hijacking and how RPKI helps validate route origins.
+
 Software
 
 AI
