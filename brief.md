@@ -55,5 +55,9 @@ management and software supply-chain transparency.
 Resource: CISA - 2025 Minimum Elements for a Software Bill of Materials - https://www.cisa.gov/sites/default/files/2025-08/2025_CISA_SBOM_Minimum_Elements.pdf
 
 Misconception in My Track
+Some people think that RPKI completely stops BGP route hijacking, but this is not true. RPKI checks if an IP prefix is allowed to be announced by a specific Autonomous System (AS). 
+However, it does not check the whole route or make sure that the traffic follows a secure path. So, RPKI helps reduce routing risks, but other security methods are still needed. 
+This limitation is explained in the Summary section of the RIPE NCC BGP Origin Validation resource.
 
 Open Question
+How can network operators improve BGP route security when some networks have not deployed RPKI origin validation, and how can they detect suspicious route changes quickly?
