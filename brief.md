@@ -11,7 +11,8 @@ Networking security is essential because incorrect or malicious internet route a
 from its intended destination. Cybersecurity practices help detect and fix vulnerabilities that attackers could exploit
 to gain access or execute malicious actions. Data security and software supply chain transparency help teams understand
 which components their systems depend on. Together, these six fields support risk reduction, service reliability, 
-and informed technical decisions. This brief also examines BGP route hijacking and how RPKI helps validate route origins.
+and informed technical decisions. The networking section examines BGP route hijacking, how RPKI supports route-origin 
+validation, and why additional routing-security measures are still necessary.
 
 Software
 The Twelve-Factor App methodology recommends storing configuration in environment variables instead of hard-coding 
