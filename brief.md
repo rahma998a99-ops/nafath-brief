@@ -35,10 +35,24 @@ The OWASP Mobile Application Security Testing Guide provides further guidance on
 Resource: OWASP - Mobile Application Security Verification Standard - https://mas.owasp.org/MASVS/
 
 Networking
+BGP route hijacking occurs when a network announces an IP prefix it is not authorised to originate, potentially redirecting traffic 
+through an unintended network. Resource Public Key Infrastructure (RPKI) supports Route Origin Validation through Route Origin Authorisations (ROAs), 
+which identify authorised origins for prefixes. Routers can use this information to classify route announcements. However, origin validation does not 
+verify the entire AS path, so RPKI cannot prevent every routing attack.
+Resource: RIPE NCC - BGP Origin Validation - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/bgp-origin-validation/
 
 Cybersecurity
+Log4Shell (CVE-2021-44228) is a critical remote-code-execution vulnerability affecting certain versions of Apache Log4j 2, a Java logging library. 
+An attacker could exploit a vulnerable application using specially crafted input. Organizations should identify affected systems, install vendor-supported 
+security updates, and verify that the fixes are effective. They should also investigate signs of possible compromise rather than relying only on temporary workarounds.
+Resource: CISA - Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 Data
+A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organizations understand which 
+dependencies are included in their systems and identify products that may be affected by a vulnerability. Important information includes component names, versions, 
+supplier details, unique identifiers, dependency relationships, and information about the SBOM author and creation time. Accurate SBOM records support vulnerability 
+management and software supply-chain transparency.
+Resource: CISA - 2025 Minimum Elements for a Software Bill of Materials - https://www.cisa.gov/sites/default/files/2025-08/2025_CISA_SBOM_Minimum_Elements.pdf
 
 Misconception in My Track
 
